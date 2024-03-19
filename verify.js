@@ -10,7 +10,7 @@ function handleSubmit(e){
          e.preventDefault();
           fullnameError.style.display = 'block';
           fullnameError.style.color = 'red';
-          fullnameError.innerHTML = '<b> Full name should contain minimum 3 letters'
+          fullnameError.innerHTML = '<b> Name should contain minimum 3 letters'
        }
     if(fullname.length>2){
         fullnameError.style.display = 'block';
