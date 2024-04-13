@@ -1,9 +1,7 @@
 body{
     background-color: rgba(15, 11, 11, 0.993);
 }
-.container-fluid{
-    padding: 0px;
-}
+
 .navbar{
     padding-left: 20px;
 }
