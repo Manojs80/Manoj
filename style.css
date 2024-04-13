@@ -1,10 +1,15 @@
 body{
-    background-color: bisque;
+    background-color: rgba(15, 11, 11, 0.993);
 }
-
+.container-fluid{
+    padding: 0px;
+}
+.navbar{
+    padding-left: 20px;
+}
 .backgrd{
- background-color: rgb(99, 141, 131);
- margin: 45px 8px;
+ background-color: rgb(72, 77, 75);
+
  padding: 30px 0px;
  border-radius: 40%;
 }
@@ -14,7 +19,7 @@ body{
    margin-left: auto;
    margin-right: auto;
    width: 50%;
-    background-color: rgb(57, 73, 62);
+    background-color: rgb(72, 77, 75);;
    padding: 3%;
    border-radius: 25%;
 }
@@ -27,21 +32,23 @@ body{
 }
 
 .me{
-    background-color: rgb(233, 162, 75);
-    color: rgb(253, 252, 253);
+    background-color: rgb(39, 38, 37);
+    color: rgb(255, 255, 255);
     font-size: 18px;
     margin: 0px;
     padding: 10px;
     margin-right: 10px;
 }
-.me h3{
-    color: blue;
+.me h4{
+    color: rgb(187, 206, 121);
     font-weight: bold;
     padding: 0%;
+    font-size: 23px;
 }
 .d1 h4{
-    color: aquamarine;
+    color: rgb(187, 206, 121);
     padding-bottom: 10px;
+    font-size: 22px;
 
 }
 .d1 h6{
@@ -54,26 +61,37 @@ body{
 }
 
 .c-a{
-    background-color: rgb(223, 135, 28);
-    color: blue;
+    background-color: rgba(63, 64, 70, 0.973);
     font-size: 14px;
-    padding-top: 35px;
-    padding-left: 10px;
+    padding: 10px 0px;
 }
 .c-a h4{
-    color: rgb(109, 214, 255);
+    color: rgb(48, 216, 76);
     font-weight: bold;
+    font-size: 20px;
 }
 .c-a ul{
     list-style: none;
+    line-height: 8pt;
+    margin-bottom: 5px;
+}
+.c-a-a{
+    line-height: 14pt;
+    padding-left: 50px;
+}
+.c-a ul li{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+   
 }
 .c-a ul li h6{
-    color: rgb(239, 31, 247);
+    color: rgb(240, 238, 196);
     font-weight: bold;
+    font-size: 16px;
 }
 .c-a ul li a{
     text-decoration: none;
-    color: blue;
+    color: rgba(255, 255, 255, 0.993);
 }
 .c-a ul li a:hover{
     text-decoration: underline;
@@ -86,29 +104,72 @@ body{
     height: auto;
 }
 .get{
-    color: mediumseagreen;
+    color: rgb(240, 238, 196);
     font-weight: bold;
     padding-left: 40px;
 }
 .form-control{
-    font-size: 16px;
+    font-size: 14px;
     padding: 0px;
     padding-left: 10px;
+    margin-bottom: 0px;
+}
+@media screen and (max-width: 975px){
+    .skill h6{
+        font-size: 11px;
+    }
+    .d1 h4{
+      font-size: 18px;        
+    }
+    .p-p-t ul li{
+        font-size: 14px;
+     }
+     .p-p-t ul {
+        padding-left: 10px;
+        padding-right: 0px;
+     }
+     .c-a-a{
+        padding-left: 5px;
+     }
+     .c-a ul{
+        padding-left: 10px;
+     }
+     .c-a ul li {
+        font-size: 16px;
+     }
+     .c-a ul li h6{
+        font-size: 14px;
+    } 
+    .get{
+        padding-bottom: 50px;
+    }
+        
+}
+@media screen and (max-width: 1140px){
+    .p-p-t ul li{
+        font-size: 14px;
+     }
+     .c-a-a{
+        padding-left: 20px;
+     }
 }
 
 @media screen and (max-width: 767px){
     .backgrd {
-        margin-left: 30px;
+        margin: 20px 0px;
         border-radius: 0%;
-       }
+       }     
     .c-a{
         font-size: 18px;
-        padding-bottom: 20px;
-        margin-left: 15px;
-        margin-right: 0px;
-        padding-right: 0px;
-        width: 100%;
+          margin: 0px; 
+          padding-top: 20px;
     }
+    .c-a ul {
+        padding-left: 50px;
+    }
+    .c-a-a{
+        padding-left: 50px;
+     }
     .c-a h4{
         font-size: 26px;
     }
@@ -117,17 +178,40 @@ body{
     }
     .two{
         flex-direction: column;
+        
     }
     .mag{
-        margin-left: 25px;
+        margin: 20px 0px;
+        
+    }
+    .me{
+        padding: 0px 20px 0px 50px;
+        margin-right: 0px;
     }
     .mat{
-        margin-top: 20px;
-        margin-bottom: 20px;
+       
+        background-color: rgba(63, 64, 70, 0.973);
+        margin-top: 10px;
+        margin-bottom: 30px;
+        padding-left: 100px;
     }
    .skill{
     margin-bottom: 20px;
+    margin: 20px 120px;
    }
-   
- 
+   .skill h6{
+    font-size: 16px;
+   }
+   .d1 h4{
+    font-size: 22px;
+   }
+   .get{
+    padding-right: 100px;
+   } .p-p-t ul li{
+    font-size: 18px;
+ }
+ .p-p-t ul {
+    padding-left: 30px;
+    padding-right: 30px;
+ }
 }
